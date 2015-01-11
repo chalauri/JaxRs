@@ -1,4 +1,4 @@
-package configuration;
+package main.java;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -6,8 +6,6 @@ import java.util.Set;
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 import javax.ws.rs.ext.Provider;
-
-import main.java.HelloResource;
 
 @ApplicationPath("/resources")
 @Provider
